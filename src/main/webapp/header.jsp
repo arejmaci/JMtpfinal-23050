@@ -26,7 +26,7 @@
                         <a class="nav-link" href="#form-orador">Conviértete en orador</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link btn-compra-tickets" href="comprar-tickets.jsp">Comprar tickets</a>
+                        <a class="nav-link btn-compra-tickets" href="comprartickets.jsp">Comprar tickets</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn-log-reg" href="register.jsp">Registrarse</a>

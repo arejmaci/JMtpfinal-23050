@@ -18,17 +18,6 @@ import java.sql.ResultSet;
 @WebServlet(name = "login", value = "/login")
 public class LoginController extends HttpServlet {
 
-    public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        response.setContentType("text/html");
-        request.getSession().setAttribute("email", request.getParameter("email"));
-
-        // Hello
-        PrintWriter out = response.getWriter();
-        out.println("<html><body>");
-        out.println("<h1>Helllo</h1>");
-        out.println("</body></html>");
-    }
-
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
         String umail = request.getParameter("email");
