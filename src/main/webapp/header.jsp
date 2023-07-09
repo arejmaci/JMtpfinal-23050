@@ -3,7 +3,7 @@
     <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="index.jsp">
-                <img src="img/codoacodo-min.png" alt="Codo a Codo logo">
+                <img src="img/codoacodo.png" alt="Codo a Codo logo">
                 Conf Bs As
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"

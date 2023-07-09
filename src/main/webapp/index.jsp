@@ -81,7 +81,7 @@
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card h-100">
-                            <img src="img/steve-min.jpg" class="card-img-top" alt="...">
+                            <img src="img/steve.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <div class="mb-2">
                                     <span class="badge bg-warning text-dark">Javascript</span>
@@ -94,7 +94,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <img src="img/bill-min.jpg" class="card-img-top" alt="...">
+                            <img src="img/bill.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <div class="mb-2">
                                     <span class="badge bg-warning text-dark">Javascript</span>
@@ -107,7 +107,7 @@
                     </div>
                     <div class="col">
                         <div class="card h-100">
-                            <img src="img/ada-min.jpeg" class="card-img-top" alt="...">
+                            <img src="img/ada.jpeg" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <div class="mb-2">
                                     <span class="badge bg-secondary">Negocios</span>
@@ -127,7 +127,7 @@
     <section class="mb-4" id="lugar">
         <div class="row g-0">
             <div class="col-md">
-                <img src="img/honolulu-min.jpg" alt="Honolulu" class="img-fluid">
+                <img src="img/honolulu.jpg" alt="Honolulu" class="img-fluid">
             </div>
             <div class="col-md text-light bg-aside1">
                 <h2>Bs As - Octubre</h2>

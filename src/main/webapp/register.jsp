@@ -10,7 +10,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-7">
                     <div class="container d-flex">
-                        <img src="./img/codoacodo-min.png" alt="codo">
+                        <img src="img/codoacodo.png" alt="codo">
                         <h1 style="color: white; margin-top: auto; margin-bottom: 50px;">Registrarse</h1>
                     </div>
                     <form action="Register-Controller" method="post">
