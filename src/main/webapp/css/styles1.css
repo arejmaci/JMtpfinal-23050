@@ -44,9 +44,9 @@
 /* CAROUSEL
 -------------------------------------------------- */
 
-.bg-carousel-ba1 { background-image: url(../img/ba1-min.jpg); }
-.bg-carousel-ba2 { background-image: url(../img/ba2-min.jpg); }
-.bg-carousel-ba3 { background-image: url(../img/ba3-min.jpg); }
+.bg-carousel-ba1 { background-image: url(ba1.jpg); }
+.bg-carousel-ba2 { background-image: url(ba2.jpg); }
+.bg-carousel-ba3 { background-image: url(ba3.jpg); }
 
 .carousel-item {
   background-size: cover;
