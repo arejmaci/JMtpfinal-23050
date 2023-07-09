@@ -39,14 +39,20 @@
   display: block;
   font-weight: 700;
   font-size: 2.2rem;
-} 
+}
+#usuario_logueado{
+  display: block;
+  font-weight: 70;
+  font-size: 1.0rem;
+  color: #25a342;
+}
 
 /* CAROUSEL
 -------------------------------------------------- */
 
-.bg-carousel-ba1 { background-image: url(ba1.jpg); }
-.bg-carousel-ba2 { background-image: url(ba2.jpg); }
-.bg-carousel-ba3 { background-image: url(ba3.jpg); }
+.bg-carousel-ba1 { background-image: url(../img/ba1.jpg); }
+.bg-carousel-ba2 { background-image: url(../img/ba2.jpg); }
+.bg-carousel-ba3 { background-image: url(../img/ba3.jpg); }
 
 .carousel-item {
   background-size: cover;

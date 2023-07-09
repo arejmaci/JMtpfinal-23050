@@ -10,15 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a3bbf37-7b07-40e4-b983-58e46046c9c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/styles2.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/jmtpfinal23050/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/jmtpfinal23050/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/comprar-tickets.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/comprartickets.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/estilos-propios.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/styles1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/styles1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/estilos.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/styles2.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/head.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/head.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,27 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Jmacias/JAVA Front End/Proyecto Jose/JMtpfinal-23050/src/main/webapp/css",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Jmacias/JAVA Front End/Proyecto Jose/JMtpfinal-23050&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Jmacias\JAVA Front End\Proyecto Jose\JMtpfinal-23050\src\main\webapp\js" />
       <recent name="D:\Jmacias\JAVA Front End\Proyecto Jose\JMtpfinal-23050\src\main\webapp\css" />
       <recent name="D:\Jmacias\JAVA Front End\Proyecto Jose\JMtpfinal-23050\src\main\java\com\example\jmtpfinal23050" />
       <recent name="D:\Jmacias\JAVA Front End\Proyecto Jose\JMtpfinal-23050\src\main\webapp" />
@@ -177,7 +178,22 @@
       <updated>1688667676997</updated>
       <workItem from="1688667678247" duration="2234000" />
       <workItem from="1688669952545" duration="2079000" />
-      <workItem from="1688672235691" duration="20390000" />
+      <workItem from="1688672235691" duration="21589000" />
+      <workItem from="1688852218127" duration="8354000" />
+      <workItem from="1688907004298" duration="2703000" />
+      <workItem from="1688909737696" duration="203000" />
+      <workItem from="1688909967419" duration="92000" />
+      <workItem from="1688910084705" duration="96000" />
+      <workItem from="1688910240867" duration="106000" />
+      <workItem from="1688910411677" duration="545000" />
+      <workItem from="1688910986249" duration="153000" />
+      <workItem from="1688911183783" duration="132000" />
+      <workItem from="1688911351238" duration="100000" />
+      <workItem from="1688911491263" duration="76000" />
+      <workItem from="1688911636363" duration="384000" />
+      <workItem from="1688912044020" duration="277000" />
+      <workItem from="1688912349349" duration="924000" />
+      <workItem from="1688913295373" duration="2772000" />
     </task>
     <task id="LOCAL-00001" summary="First version">
       <option name="closed" value="true" />
@@ -187,7 +203,63 @@
       <option name="project" value="LOCAL" />
       <updated>1688692446736</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="First version">
+      <option name="closed" value="true" />
+      <created>1688771506327</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688771506327</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First version">
+      <option name="closed" value="true" />
+      <created>1688855344123</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688855344123</updated>
+    </task>
+    <task id="LOCAL-00004" summary="First version">
+      <option name="closed" value="true" />
+      <created>1688863866869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688863866869</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First version">
+      <option name="closed" value="true" />
+      <created>1688863891330</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688863891330</updated>
+    </task>
+    <task id="LOCAL-00006" summary="First version">
+      <option name="closed" value="true" />
+      <created>1688863913481</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688863913481</updated>
+    </task>
+    <task id="LOCAL-00007" summary="First version">
+      <option name="closed" value="true" />
+      <created>1688864075457</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688864075457</updated>
+    </task>
+    <task id="LOCAL-00008" summary="First version">
+      <option name="closed" value="true" />
+      <created>1688864169504</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1688864169504</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

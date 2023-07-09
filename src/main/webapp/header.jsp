@@ -3,7 +3,7 @@
     <nav class="navbar navbar-dark bg-dark fixed-top navbar-expand-lg">
         <div class="container">
             <a class="navbar-brand" href="index.jsp">
-                <img src="img/codoacodo.png" alt="Codo a Codo logo">
+                <img src="img/codoacodo-min.png" alt="Codo a Codo logo">
                 Conf Bs As
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -28,12 +28,30 @@
                     <li class="nav-item">
                         <a class="nav-link btn-compra-tickets" href="comprartickets.jsp">Comprar tickets</a>
                     </li>
+
+                    <!-- solo muestro las etiquetas de loguin y registrar si no hay sesion -->
+                    <% if(session.getAttribute("email") == null ) {
+                    %>
                     <li class="nav-item">
                         <a class="nav-link btn-log-reg" href="register.jsp">Registrarse</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link btn-log-reg" href="login.jsp">Iniciar Sesión</a>
                     </li>
+                    <%
+                        }
+                    %>
+                    <% if(session.getAttribute("email") != null ) {
+                    %>
+                    <li class="nav-item">
+                        <a class="nav-link btn-log-reg"  href="#logout">logout</a>
+                        <h5 id="usuario_logueado" >(Hola <%= session.getAttribute("email") %> )</h5>
+
+                    </li>
+                    <%
+                        }
+                    %>
+
                 </ul>
             </div>
         </div>
