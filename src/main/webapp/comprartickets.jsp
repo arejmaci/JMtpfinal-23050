@@ -5,7 +5,11 @@
 <body>
 <jsp:include page="header.jsp"/>
 <main>
-
+    <%
+        if(session.getAttribute("email") == null){
+            response.sendRedirect("login.jsp");
+        }
+    %>
     <section class="container pt-section">
         <div class="row justify-content-center">
             <div class="col-lg-8 col-xl-7">
