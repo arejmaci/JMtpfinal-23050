@@ -30,6 +30,18 @@
                 </div>
             </form>
 
+
+            <div class="text-center">
+                <p style="color: white">Ó</p>
+            </div>
+
+            <form class="container" action="register.jsp">
+                <article class="text-center mt-4">
+                    <input type="submit" class="btn btn-lg btn-form" value="Registrarse">
+                </article>
+            </form>
+
+
         </div>
     </div>
 </section>
