@@ -5,11 +5,7 @@
 <body>
 <jsp:include page="header.jsp"/>
 <main>
-    <%
-        if(session.getAttribute("email") == null){
-            response.sendRedirect("login.jsp");
-        }
-    %>
+
     <section class="container pt-section">
         <div class="row justify-content-center">
             <div class="col-lg-8 col-xl-7">
@@ -54,29 +50,29 @@
                 </div>
 
                 <h2 class="titulo-gral">Venta <span>Valor de ticket $200</span></h2>
-                
+
                 <form action="">
                     <div class="row gx-2">
                         <div class="col-md mb-3">
-                            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre" required>
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre" name="nombre"required>
                         </div>
                         <div class="col-md mb-3">
-                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" id="apellido" required>
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" id="apellido" name="apellido"required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col mb-3">
-                            <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="mail" required>
+                            <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="mail" name="mail"required>
                         </div>
                     </div>
                     <div class="row gx-2">
                         <div class="col-md mb-3">
                             <label for="cantidadTickets" class="form-label">Cantidad</label>
-                            <input type="number" class="form-control" placeholder="Cantidad" aria-label="Cantidad" id="cantidadTickets" min="1" required>
+                            <input type="number" class="form-control" placeholder="Cantidad" aria-label="Cantidad" id="cantidadTickets" min="1" name="cantidad" required>
                         </div>
                         <div class="col-md mb-3">
                             <label for="categoriaSelect" class="form-label">Categoría</label>
-                            <select class="form-select" aria-label="Categoría" id="categoriaSelect">
+                            <select class="form-select" aria-label="Categoría" id="categoriaSelect" name="categoria">
                                 <option value="" selected>-- Seleccione --</option>
                                 <option value="0">Sin Categoria</option>
                                 <option value="1">Estudiante</option>
@@ -94,6 +90,7 @@
                         </div>
                         <div class="col-md mb-3">
                             <button type="button" class="w-100 btn btn-lg btn-form" id="btnResumen">Resumen</button>
+
                         </div>
                     </div>
                 </form>

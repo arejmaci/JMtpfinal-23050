@@ -159,13 +159,14 @@
                     <div class="row">
                         <div class="col mb-3">
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
-                                placeholder="Sobre qué quieres hablar?" required></textarea>
+                                      placeholder="Sobre qué quieres hablar?" required></textarea>
                             <div id="emailHelp" class="form-text mb-3">Recuerda incluir un título para tu charla.</div>
                             <div class="d-grid">
                                 <button type="submit" class="btn btn-lg btn-form">Enviar</button>
                             </div>
                         </div>
                     </div>
+
                 </form>
             </div>
         </div>
