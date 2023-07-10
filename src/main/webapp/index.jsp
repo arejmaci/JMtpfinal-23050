@@ -28,7 +28,10 @@
                             <div class="col-lg-8 offset-lg-6">
                                 <h3>Conf Bs. As.</h3>
                                 <p>Bs. As. llega por primera vez a la Argentina. Un evento para compartir con nuestra comunidad el conocimiento y la experiencia de los expertos que están creando el futuro de internet. Ven a conocer a miembros del evento, a otros estudiantes de Codo a Codo y a los oradores de primer nivel que tenemos para ti. Te esperamos!</p>
-                                <p><a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a> <a class="btn btn-success ms-2 mb-3" href="comprartickets.jsp">Comprar tickets</a></p>
+                                <p><a class="btn btn-outline-light mb-3" href="#form-orador">Quiero ser orador</a>
+
+                                    <a class="btn btn-success ms-2 mb-3" href="comprartickets.jsp">Comprar tickets</a>
+                                </p>
                             </div>
                         </div>
                     </div>
