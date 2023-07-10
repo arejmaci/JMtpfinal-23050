@@ -37,14 +37,14 @@ public class ShoppingCartController extends HttpServlet {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/com23050?useSSL=false", "root", "awgdelfin");
-            final String STATEMENT = "insert into buyers (name, surname, email, cant,category,amount) values (?,?,?,?)";
+            final String STATEMENT = "insert into buyers (name, surname, email, cant,category,amount) values (?,?,?,?,?,?)";
             PreparedStatement pst = con.prepareStatement(STATEMENT);
             pst.setString(1, uname);
             pst.setString(2, usurname);
             pst.setString(3, uemail);
             pst.setString(4, ucant);
-            pst.setString(4, ucategoria);
-            pst.setString(4, utotalpago);
+            pst.setString(5, ucategoria);
+            pst.setString(6, utotalpago);
             int rowCount = pst.executeUpdate();
             disp = request.getRequestDispatcher("comprartickets.jsp");
             if (rowCount > 0) {

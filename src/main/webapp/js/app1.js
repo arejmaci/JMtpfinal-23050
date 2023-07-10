@@ -108,5 +108,3 @@ function reset_total_a_pagar() {
     totalPago.innerHTML = "";
 }
 btnBorrar.addEventListener('click', reset_total_a_pagar);
-
-ShoppingCartController.

@@ -5,7 +5,7 @@
 <body>
 <jsp:include page="header.jsp"/>
 <main>
-
+    <form action="ShoppinCart-Controller" method="post">
     <section class="container pt-section">
         <div class="row justify-content-center">
             <div class="col-lg-8 col-xl-7">
@@ -54,7 +54,7 @@
                 <form action="">
                     <div class="row gx-2">
                         <div class="col-md mb-3">
-                            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre" name="nombre"required>
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre" name="nombre" required>
                         </div>
                         <div class="col-md mb-3">
                             <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" id="apellido" name="apellido"required>
@@ -62,7 +62,7 @@
                     </div>
                     <div class="row">
                         <div class="col mb-3">
-                            <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="mail" name="mail"required>
+                            <input type="email" class="form-control" placeholder="Email" aria-label="Email" id="mail" name="mail" required>
                         </div>
                     </div>
                     <div class="row gx-2">
@@ -89,7 +89,7 @@
                             <button type="reset" class="w-100 btn btn-lg btn-form" id="btnBorrar">Borrar</button>
                         </div>
                         <div class="col-md mb-3">
-                            <button type="button" class="w-100 btn btn-lg btn-form" id="btnResumen">Resumen</button>
+                            <button type="submit" class="w-100 btn btn-lg btn-form" id="btnResumen">Resumen</button>
 
                         </div>
                     </div>
@@ -104,5 +104,6 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 <script src="js/app1.js"></script>
+</form
 </body>
 </html>

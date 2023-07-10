@@ -6,14 +6,13 @@ form.addEventListener("submit", e => {
     var porcentaje = 0;
     const valorticket = 200;
     
-    const nombre = document.getElementById("inputnombre");
-    const apellido = document.getElementById("inputapellido");
-    const correo = document.getElementById("inputcorreo");
-    const cantidad = document.getElementById("inputcantidad");
-    const estudiante = document.getElementById("inputEstudiante");
-    var totalApagar = document.getElementById("totalApagar");
+    const nombre = document.getElementById("nombre");
+    const apellido = document.getElementById("apellido");
+    const correo = document.getElementById("mail");
+    const cantidad = document.getElementById("cantidadTickets");
+    const estudiante = document.getElementById("categoriaSelect");
+    var totalApagar = document.getElementById("totalPago");
 
-    
 
     function calculartotal ()
     {
