@@ -36,7 +36,7 @@ public class LoginController extends HttpServlet {
             ResultSet rs = ps.executeQuery();
 
             if (rs.next()) {
-                session.setAttribute("email", rs.getString(1));
+                session.setAttribute("email", rs.getString(2));
                 disp = request.getRequestDispatcher("index.jsp");
             } else {
                 request.setAttribute("status", "failed");
