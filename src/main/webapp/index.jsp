@@ -1,9 +1,4 @@
 <%@ page contentType="text/html;charset=UTF-8" %>
-<%--
-    if(session.getAttribute("email") == null){
-        response.sendRedirect("login.jsp");
-    }
---%>
 <!doctype html>
 <html lang="es">
 <jsp:include page="head.jsp"/>
@@ -145,24 +140,25 @@
             <div class="col-lg-8 col-xl-7">
                 <h2 class="titulo-gral">Conviértete en un <span>orador</span></h2>
                 <p class="text-center">Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
-                <form action="">
+                <form action="Speaker-Controller" method="post">
+
                     <div class="row gx-2">
                         <div class="col-md mb-3">
-                            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" required>
+                            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" name="nombre" required>
                         </div>
                         <div class="col-md mb-3">
-                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" required>
+                            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" name="apellido" required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col mb-3">
-                            <input type="email" class="form-control" placeholder="Email" aria-label="Email" required>
+                            <input type="email" class="form-control" placeholder="Email" aria-label="Email" name="email" required>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col mb-3">
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
-                                      placeholder="Sobre qué quieres hablar?" required></textarea>
+                                      placeholder="Sobre qué quieres hablar?" name="tema" required></textarea>
                             <div id="emailHelp" class="form-text mb-3">Recuerda incluir un título para tu charla.</div>
                             <div class="d-grid">
                                 <button type="submit" class="btn btn-lg btn-form">Enviar</button>
