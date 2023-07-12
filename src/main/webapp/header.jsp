@@ -44,10 +44,9 @@
                     <% if(session.getAttribute("email") != null ) {
                     %>
                     <li class="nav-item">
-                        <a class="nav-link btn-log-reg"  href="#logout">Cerrar Sesión</a>
-
-                        <h5 id="usuario_logueado" >(Hola <%= session.getAttribute("email") %> )</h5>
+                        <a class="nav-link btn-log-reg" href="logout">Cerrar Sesión</a>
                     </li>
+                    <h5 id="usuario_logueado" >(Hola <%= session.getAttribute("email") %> )</h5>
                     <%
                         }
                     %>
